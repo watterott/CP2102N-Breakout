@@ -9,8 +9,4 @@ The CP2102N-Breakout is an USB to Serial Adapter with Silicon Labs Chipset.
 * Overcurrent protection (resettable polyswitch fuse)
 * Standard 6 pin connector with GND, CTS, VCC, TX, RX, DTR
 * microUSB-Connector
-
-
-## Shop
-* [CP2102N Breakout](http://www.watterott.com/en/CP2102N-Breakout) (with soldered pin headers)
-* [CP2102N Breakout Light](http://www.watterott.com/en/CP2102N-Breakout-Light)
+* **[Documentation on learn.watterott.com](http://learn.watterott.com/cp2102n-breakout/)**
