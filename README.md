@@ -1,7 +1,7 @@
 # CP2102N-Breakout
 The CP2102N-Breakout is an USB to Serial Adapter with Silicon Labs Chipset.
 
-![CP2102N-Breakout](https://github.com/watterott/CP2102N-Breakout/raw/master/hardware/CP2102N-Breakout_v10.jpg)
+![CP2102N-Breakout](https://github.com/watterott/CP2102N-Breakout/raw/master/hardware/CP2102N-Breakout_v11.jpg)
 
 * [Silabs CP2102N](http://www.silabs.com/products/interface/usb-bridges/usbxpress-usb-bridges/Pages/usbxpress-usb-bridges.aspx) USB UART Bridge (up to 3M baud)
 * 3.3V or 5V logic supply voltage selectable by switch
