@@ -616,7 +616,7 @@ Molex 1051330011</description>
 </symbols>
 <devicesets>
 <deviceset name="USB" prefix="J">
-<description>USB Connectors</description>
+<description>USB Connector</description>
 <gates>
 <gate name="J" symbol="USB" x="-2.54" y="-2.54"/>
 </gates>
@@ -1298,7 +1298,7 @@ Molex 1051330011</description>
 <wire x1="6.35" y1="1.27" x2="7.62" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="7.62" y1="1.27" x2="8.89" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="7.62" y1="-1.27" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
-<text x="0" y="5.588" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="10.16" y="0" size="1.778" layer="96" rot="R270" align="bottom-center">&gt;VALUE</text>
 <pin name="C1" x="-5.08" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="C2" x="5.08" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
@@ -1356,7 +1356,7 @@ Molex 1051330011</description>
 </symbols>
 <devicesets>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
-<description>Capacitors&lt;br&gt;
+<description>Capacitor&lt;br&gt;
 &lt;br&gt;
 ...2.2uF @ 6.3V -&gt; 0402&lt;br&gt;
 ...4.7uF @ 6.3V -&gt; 0603&lt;br&gt;
@@ -1450,7 +1450,7 @@ Molex 1051330011</description>
 </devices>
 </deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
-<description>Resistors&lt;br&gt;
+<description>Resistor&lt;br&gt;
 all kinds in 0402 and 0603</description>
 <gates>
 <gate name="R" symbol="RESISTOR" x="0" y="0"/>
@@ -1585,7 +1585,7 @@ all kinds in 0402 and 0603</description>
 </devices>
 </deviceset>
 <deviceset name="FUSE" prefix="F" uservalue="yes">
-<description>Fuses&lt;br&gt;
+<description>Fuse&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;Polyfuses&lt;/u&gt;&lt;br&gt;
 0805 - 0.5A or 1A, 6V&lt;br&gt;
@@ -1697,7 +1697,8 @@ all kinds in 0402 and 0603</description>
 </devices>
 </deviceset>
 <deviceset name="D_ESD5V3U2U" prefix="D">
-<description>TVS Diode - Uni-directional Ultra Low ESD / Transient Protection Diode&lt;br&gt;
+<description>ESD5V3U2U TVS Diode
+(Uni-directional Ultra Low ESD)&lt;br&gt;
 Vrwm=5.3V, 0.4pF@1MHz</description>
 <gates>
 <gate name="D" symbol="DIODE_ACCA_CA_2X" x="0" y="0"/>
@@ -1718,7 +1719,7 @@ Vrwm=5.3V, 0.4pF@1MHz</description>
 </devices>
 </deviceset>
 <deviceset name="PAD" prefix="X">
-<description>Pads and Test-Points</description>
+<description>Pad / Test-Point</description>
 <gates>
 <gate name="X" symbol="PAD" x="0" y="0"/>
 </gates>
@@ -3101,7 +3102,7 @@ HW</text>
 </devices>
 </deviceset>
 <deviceset name="PASSER" prefix="X">
-<description>Fiducial Markers</description>
+<description>Fiducial Marker</description>
 <gates>
 <gate name="X" symbol="PASSER" x="0" y="0"/>
 </gates>
@@ -3368,7 +3369,7 @@ HW</text>
 </symbols>
 <devicesets>
 <deviceset name="LED" prefix="D" uservalue="yes">
-<description>LEDs&lt;br&gt;
+<description>LED&lt;br&gt;
 &lt;br&gt;
 red, green, blue -&gt; 0603</description>
 <gates>
@@ -3578,7 +3579,8 @@ red, green, blue -&gt; 0603</description>
 </symbols>
 <devicesets>
 <deviceset name="CP2102N" prefix="IC">
-<description>Silabs CP2102N USB to UART Bridge (5V tolerant inputs)&lt;br&gt;
+<description>Silabs CP2102N
+USB to UART Bridge (5V tolerant inputs)&lt;br&gt;
 &lt;br&gt;
 CP2102N-QFN24 is pin-compatible with CP2104.</description>
 <gates>
@@ -3622,17 +3624,17 @@ CP2102N-QFN24 is pin-compatible with CP2104.</description>
 <description>Arduino, Raspberry Pi...</description>
 <packages>
 <package name="FTDI">
-<description>FTDI-Breakout Pinout</description>
-<pad name="1-GND" x="0" y="6.35" drill="0.9" diameter="1.3" shape="long"/>
-<pad name="2-CTS" x="0" y="3.81" drill="0.9" diameter="1.3" shape="long"/>
-<pad name="3-VCC" x="0" y="1.27" drill="0.9" diameter="1.3" shape="long"/>
-<pad name="4-TXO" x="0" y="-1.27" drill="0.9" diameter="1.3" shape="long"/>
-<pad name="5-RXI" x="0" y="-3.81" drill="0.9" diameter="1.3" shape="long"/>
-<pad name="6-DTR" x="0" y="-6.35" drill="0.9" diameter="1.3" shape="long"/>
+<description>1x6</description>
+<pad name="1-GND" x="0" y="6.35" drill="1" shape="long"/>
+<pad name="2-CTS" x="0" y="3.81" drill="1" shape="long"/>
+<pad name="3-VCC" x="0" y="1.27" drill="1" shape="long"/>
+<pad name="4-TXO" x="0" y="-1.27" drill="1" shape="long"/>
+<pad name="5-RXI" x="0" y="-3.81" drill="1" shape="long"/>
+<pad name="6-DTR" x="0" y="-6.35" drill="1" shape="long"/>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="FTDI_SMD">
-<description>FTDI-Breakout Pinout SMD with cream</description>
+<description>1x6 SMD with cream</description>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <smd name="1-GND" x="0" y="6.35" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 <smd name="2-CTS" x="0" y="3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
@@ -3642,7 +3644,7 @@ CP2102N-QFN24 is pin-compatible with CP2104.</description>
 <smd name="6-DTR" x="0" y="-6.35" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 </package>
 <package name="FTDI_SMDNC">
-<description>FTDI-Breakout Pinout SMD without cream</description>
+<description>1x6 SMD without cream</description>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <smd name="1-GND" x="0" y="6.35" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
 <smd name="2-CTS" x="0" y="3.81" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
@@ -3920,8 +3922,10 @@ CP2102N-QFN24 is pin-compatible with CP2104.</description>
 </symbols>
 <devicesets>
 <deviceset name="BSS138PS" prefix="T">
-<description>Dual N-Channel MOSFET&lt;br&gt;
-BSS138 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;</description>
+<description>BSS138 Dual N-Channel MOSFET&lt;br&gt;
+(Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;
+&lt;br&gt;
+BSS138PS compatible: 2N7002PS, Si1926DL, BSS138BKS (with ESD protection)&lt;br&gt;</description>
 <gates>
 <gate name="T1" symbol="MOSFET_N-CHN" x="0" y="10.16"/>
 <gate name="T2" symbol="MOSFET_N-CHN" x="0" y="-10.16"/>
